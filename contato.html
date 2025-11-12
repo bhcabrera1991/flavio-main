@@ -6,6 +6,9 @@
     <title>index</title>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <style>
+        *{
+            margin: 0;
+        }
 
         body{
             
@@ -13,6 +16,9 @@
 
         header{
            display: flex;
+          
+           
+           
         }
         .logo{
            
@@ -21,43 +27,102 @@
         }
 
         .menu{
-            border: 1px solid blue;
+           /* border: 1px solid blue;*/
             width: 950vh;
             height: 150px;
-            display: flex;
-            justify-content:center;
-            align-items: end;           
-                    
+            align-content: center;
+            background-color: lab(94.1% -2.07 3.62 / 0.124);
+            background-image: url();
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
             
-                       
+                               
+        }
+
+        
+        .menu1{
+            /*border: 1px solid rgb(255, 0, 60);*/
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            align-items: end;
+            height: 50px;
+        }
+
+        .menu2{
+            border: 1px solid black;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+        
+
+    
+
+        .divmae{
+            /*border: 1px solid black;*/
+            height: 50px;
+            width: 600px;
+            display: flex;
+           
+           
             
         }
 
 
-        .divmae{
-            border: 1px solid black;
+
+        .divpai{
+            border: 1px solid red;
             height: 50px;
-            width: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: end;
+            width: 30%;
+            
         }
 
         a{
-            border: 1px solid red;
+            
             margin: 10px;
             font-family: 'Anton', sans-serif;
-            background-color: antiquewhite;
+            font-size: 20px;
             color: blue;
             width: 150px;
             text-align: center;
-                
             
-            
+                        
+        }
+
+        a:hover{
+            border: 1px solid red;
+            margin: 10px;
+            font-family: 'Anton', sans-serif;
+            color: white;
+            width: 150px;
+            text-align: center;
+            background-color: black;
+            border-radius: 10px;
             
         }
 
-     
+        .logo1{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            width: 200px;
+            
+            
+            /*border: 1px solid rgb(142, 122, 255);*/
+
+
+        }
+
+        .red{
+            border: 2px solid brown;
+            height: 20px;
+            width: 20px;
+        }
+    
+    
       
 
         .corpo{
@@ -78,16 +143,52 @@
 
     <header>
         <div class="logo">
-            <img src="img/logo.png" height="150px" alt="">
+            <img src="img/logo_.jpg" height="150px" alt="">
 
         </div>
 
-        <div class="menu">
-            <div class="divmae" >
-                <a href="produtos.html">Produtos</a>
-                <a href="index.html">Inicio</a>
-                <a href="">Sobre</a>
+    <div class="menu">
+        <div class="menu2">
+            <div style=" border: 1px solid red; width: 100%; justify-content: center; display: flex;" >
+
+            <img src="img/logoGrupo.jpeg" height="100%" alt="">
             </div>
+
+          <div class="red">
+            <img src="img/facebook.jpg" height="100%" alt="">
+          </div>
+
+          <div class="red">
+            <img src="img/yotube.jpg" height="100%" alt="">
+          </div>
+          <div class="red">
+            <img src="img/instagran.jpg" height="100%" alt="">
+          </div>
+          <div class="red">
+            <img src="img/tiktok.jpg" height="100%" alt="">
+          </div>
+          <div class="red">
+             <img src="img/x.jpg" height="100%" alt="">
+          </div>
+
+
+
+
+        </div>
+            <div class="menu1">
+               <div class="divmae" >
+                    <a href="produtos.html">Produtos</a>
+                    <a href="index.html">Inicio</a>
+                    <a href="">Sobre</a>
+                </div>
+            </div>
+    </div>
+    
+        
+        
+        
+        <div class="logo1">
+            <img src="img/logo1.png" height="150px" alt="">
         </div>
     </header>
     <hr>
